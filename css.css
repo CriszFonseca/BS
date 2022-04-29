@@ -1,0 +1,74 @@
+body{
+    background-image: url(img/fundo.jpeg);
+}
+.logo{
+    width: 50px;
+    border-radius: 20rem;
+    display: inline;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.i{
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: Nougat;
+}.h{
+    background-color: #06006e;
+    border-radius: 20rem;
+
+}.n{
+    display: flex;
+    align-items: center;
+}main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+
+}.conteudo{
+    width: 40%;
+    color: aliceblue;
+    font-family: Nougat;
+}main iframe{
+    width: 40%;
+    border-radius: 20px;
+}main h1{
+    text-align: center;
+}
+.linha
+{
+   font-family: Nougat; 
+   margin: auto;
+   text-align: center;
+   font-size: 40px;
+   max-width: 600px;
+   position:relative;
+
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+.linha::before {
+    content: "";
+    display:block;
+    width: 120px;
+    height: 5px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 0%;
+    top: 50%;
+}
+.linha::after {
+    content: "";
+    display:block;
+    width: 120px;
+    height: 5px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    right: 0;
+    top: 50%;
+
+
+
